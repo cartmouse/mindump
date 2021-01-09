@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Home/Home";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="banner">
+        <h1>Mindump</h1>
+      </div>
+      <main>
+        <Home />
+      </main>
+      <footer>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <a
+            href="https://github.com/tom-cartwright"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          <a
+            href="https://twitter.com/tomcodesthings"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
