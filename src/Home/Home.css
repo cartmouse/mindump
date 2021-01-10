@@ -33,12 +33,13 @@
   animation: 1s ease-in 0s 1 grow;
 }
 
-.home i {
+.home p {
   padding-top: 20px;
   animation: 1s ease-in 0s 1 grow;
 }
 
 .home input {
+  font-family: inherit;
   border: 0;
   border-radius: 5px;
   font: inherit;
@@ -50,7 +51,36 @@
   animation: 1s ease-in 0s 1 grow;
 }
 
+.home button,
+.enter-button {
+  font-family: inherit;
+  color: black;
+  border: 0;
+  border-radius: 3px;
+  background-color: var(--secondary);
+  padding: 5px 8px;
+  margin: 10px;
+  box-shadow: var(--back-shadow) 1px 1px 2.6px;
+  animation: 1s ease-in 0s 1 grow;
+  transition: 0.5s;
+}
+
+.home button:hover,
+.enter-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.dump-list {
+  padding: 0;
+}
+
 .dump-list li {
   list-style-type: ">";
   padding-inline-start: 1ch;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
 }

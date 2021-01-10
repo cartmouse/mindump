@@ -39,7 +39,25 @@ a:hover {
 
 .banner {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   background-color: var(--secondary);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav * {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: var(--sec-shadow) 1px 1px 2.6px;
+  transition: 0.5s;
+}
+
+.nav *:hover {
+  background-color: white;
+  cursor: pointer;
 }

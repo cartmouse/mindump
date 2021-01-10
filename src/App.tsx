@@ -7,6 +7,10 @@ function App() {
     <div className="App">
       <div className="banner">
         <h1>Mindump</h1>
+        <div className="nav">
+          <i>Dumper</i>
+          <i>Viewer</i>
+        </div>
       </div>
       <main>
         <Home />
