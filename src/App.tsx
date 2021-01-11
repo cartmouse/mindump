@@ -16,7 +16,9 @@ function App() {
         <Home />
       </main>
       <footer>
-        <p>
+        <p>A CartMouse App //</p>
+        <span>
+          <i className="fab fa-github"></i>
           <a
             href="https://github.com/cartmouse"
             target="_blank"
@@ -24,8 +26,10 @@ function App() {
           >
             GitHub
           </a>
-        </p>
-        <p>
+        </span>
+        <p>//</p>
+        <span>
+          <i className="fab fa-twitter"></i>
           <a
             href="https://twitter.com/cartmouse"
             target="_blank"
@@ -33,7 +37,7 @@ function App() {
           >
             Twitter
           </a>
-        </p>
+        </span>
       </footer>
     </div>
   );
