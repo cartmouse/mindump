@@ -10,8 +10,10 @@ const Home = () => {
     if (event.key === "Enter" && inputVal !== "") resetInput();
   };
 
-  const onSave = () => {
+  const onArchive = () => {
+    console.log("Send following to database:");
     console.log(getDateToday(), dumps);
+    resetDumps();
   };
 
   const onEnter = () => {
@@ -25,6 +27,11 @@ const Home = () => {
   const resetInput = () => {
     setDumps([...dumps, inputVal]);
     setInputVal("");
+  };
+
+  const resetDumps = () => {
+    setInputVal("");
+    setDumps([]);
   };
 
   return (
@@ -42,9 +49,7 @@ const Home = () => {
           </div>
         </div>
         <Dumps dumps={dumps} />
-        <button className="save-button" onClick={onSave}>
-          Archive these pesky thoughts...
-        </button>
+        <button onClick={onArchive}>Archive these pesky thoughts...</button>
       </div>
     </>
   );

@@ -39,7 +39,6 @@
 }
 
 .home input {
-  font-family: inherit;
   border: 0;
   border-radius: 5px;
   font: inherit;
@@ -53,7 +52,7 @@
 
 .home button,
 .enter-button {
-  font-family: inherit;
+  font: inherit;
   color: black;
   border: 0;
   border-radius: 3px;
