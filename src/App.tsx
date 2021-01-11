@@ -18,7 +18,7 @@ function App() {
       <footer>
         <p>
           <a
-            href="https://github.com/tom-cartwright"
+            href="https://github.com/cartmouse"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ function App() {
         </p>
         <p>
           <a
-            href="https://twitter.com/tomcodesthings"
+            href="https://twitter.com/cartmouse"
             target="_blank"
             rel="noopener noreferrer"
           >
