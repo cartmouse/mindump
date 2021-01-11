@@ -19,21 +19,26 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--secondary);
   width: 100%;
 }
 
-footer * {
-  margin: 10px;
+footer span {
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+footer span i {
+  margin: 0 5px;
 }
 
 a {
   text-decoration: inherit;
   color: inherit;
-  transition: 0.5s;
 }
 
-a:hover {
+footer span:hover {
   color: white;
 }
 
